@@ -1,0 +1,168 @@
+Starting Frontend-Only test with 50 rows...
+Frontend loaded successfully.
+Testing [Row 2]: Question forms
+  -> FAIL
+Testing [Row 3]: Question forms
+Error in UI interaction: Output did not update for this input (still showing previous output).
+Testing [Row 4]: Command forms
+  -> FAIL
+Testing [Row 5]: Command forms
+Error in UI interaction: Locator.click: Timeout 2000ms exceeded.
+Call log:
+  - waiting for locator("textarea[placeholder*=\"English\"]").first
+    - locator resolved to <textarea placeholder="Type your English text here…" class="w-full h-56 resize-y rounded-lg ring-1 ring-slate-300 p-3 pb-8"></textarea>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+
+Testing [Row 6]: Greetings
+Error in UI interaction: Locator.click: Timeout 2000ms exceeded.
+Call log:
+  - waiting for locator("textarea[placeholder*=\"English\"]").first
+    - locator resolved to <textarea placeholder="Type your English text here…" class="w-full h-56 resize-y rounded-lg ring-1 ring-slate-300 p-3 pb-8"></textarea>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+
+Testing [Row 7]: Greetings
+Error in UI interaction: Locator.click: Timeout 2000ms exceeded.
+Call log:
+  - waiting for locator("textarea[placeholder*=\"English\"]").first
+    - locator resolved to <textarea placeholder="Type your English text here…" class="w-full h-56 resize-y rounded-lg ring-1 ring-slate-300 p-3 pb-8"></textarea>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+
+Testing [Row 8]: Requests
+Error in UI interaction: Locator.click: Timeout 2000ms exceeded.
+Call log:
+  - waiting for locator("textarea[placeholder*=\"English\"]").first
+    - locator resolved to <textarea placeholder="Type your English text here…" class="w-full h-56 resize-y rounded-lg ring-1 ring-slate-300 p-3 pb-8"></textarea>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+
+Testing [Row 9]: Requests; Isolated English Word Insertions in Singlish
+Error in UI interaction: Locator.click: Timeout 2000ms exceeded.
+Call log:
+  - waiting for locator("textarea[placeholder*=\"English\"]").first
+    - locator resolved to <textarea placeholder="Type your English text here…" class="w-full h-56 resize-y rounded-lg ring-1 ring-slate-300 p-3 pb-8"></textarea>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+
+Testing [Row 10]: Responses
+Error in UI interaction: Output did not update for this input (still showing previous output).
+Testing [Row 11]: Responses
+Error in UI interaction: Output did not update for this input (still showing previous output).
+Testing [Row 12]: Repeated Words
+  -> FAIL
+Testing [Row 13]: Repeated Words; Isolated English Word Insertions in Singlish
+Error in UI interaction: Output did not update for this input (still showing previous output).
+Testing [Row 14]: Inputs with Punctuation Marks; Question forms
+  -> FAIL
+Testing [Row 15]: Inputs with Punctuation Marks
+  -> FAIL
+Testing [Row 16]: Romanization / Spelling Variants
+  -> FAIL
+Testing [Row 17]: Romanization / Spelling Variants; Question forms
+  -> FAIL
+Testing [Row 18]: Isolated English Word Insertions in Singlish
+Error in UI interaction: Output did not update for this input (still showing previous output).
+Testing [Row 19]: Isolated English Word Insertions in Singlish
+Error in UI interaction: Locator.click: Timeout 2000ms exceeded.
+Call log:
+  - waiting for locator("textarea[placeholder*=\"English\"]").first
+    - locator resolved to <textarea placeholder="Type your English text here…" class="w-full h-56 resize-y rounded-lg ring-1 ring-slate-300 p-3 pb-8"></textarea>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - performing click action
+
+Testing [Row 20]: Multi-Word English Phrases in Singlish
+  -> FAIL
+Testing [Row 21]: Multi-Word English Phrases in Singlish
+  -> FAIL
+Testing [Row 22]: English Digital Terms in Singlish
+Error in UI interaction: Output did not update for this input (still showing previous output).
+Testing [Row 23]: English Digital Terms in Singlish
+  -> FAIL
+Testing [Row 24]: Platform/App Names in Singlish
+Error in UI interaction: Output did not update for this input (still showing previous output).
+Testing [Row 25]: Platform/App Names in Singlish
+  -> FAIL
+Testing [Row 26]: English Abbreviations/Acronyms in Singlish
+  -> FAIL
+Testing [Row 27]: English Abbreviations/Acronyms in Singlish
+Error in UI interaction: Output did not update for this input (still showing previous output).
+Testing [Row 28]: English Clipped Forms in Singlish
+Error in UI interaction: Output did not update for this input (still showing previous output).
+Testing [Row 29]: English Clipped Forms in Singlish
+  -> FAIL
+Testing [Row 30]: Place Names Embedded in Singlish
+  -> FAIL
+Testing [Row 31]: Place Names Embedded in Singlish
+Error in UI interaction: Output did not update for this input (still showing previous output).
+Testing [Row 32]: Person Names Embedded in Singlish
+  -> FAIL
+Testing [Row 33]: Person Names Embedded in Singlish
+Error in UI interaction: Output did not update for this input (still showing previous output).
+Testing [Row 34]: Inputs with Numbers and Numeric Suffixes
+  -> FAIL
+Testing [Row 35]: Inputs with Numbers and Numeric Suffixes
+Error in UI interaction: Output did not update for this input (still showing previous output).
+Testing [Row 36]: Inputs with Currency
+  -> FAIL
+Testing [Row 37]: Inputs with Currency; Question forms
+  -> FAIL
+Testing [Row 38]: Inputs with Time Formats
+  -> FAIL
+Testing [Row 39]: Inputs with Time Formats
+Error in UI interaction: Output did not update for this input (still showing previous output).
+Testing [Row 40]: Inputs with Dates
+  -> FAIL
+Testing [Row 41]: Inputs with Dates; Multi-Word English Phrases in Singlish
+Error in UI interaction: Locator.click: Timeout 2000ms exceeded.
+Call log:
+  - waiting for locator("textarea[placeholder*=\"English\"]").first
+    - locator resolved to <textarea placeholder="Type your English text here…" class="w-full h-56 resize-y rounded-lg ring-1 ring-slate-300 p-3 pb-8"></textarea>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - performing click action
+
+Testing [Row 42]: Inputs with Unit of Measurements; Question forms
+Error in UI interaction: Locator.click: Timeout 2000ms exceeded.
+Call log:
+  - waiting for locator("textarea[placeholder*=\"English\"]").first
+    - locator resolved to <textarea placeholder="Type your English text here…" class="w-full h-56 resize-y rounded-lg ring-1 ring-slate-300 p-3 pb-8"></textarea>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - performing click action
+    - click action done
+    - waiting for scheduled navigations to finish
+
+Testing [Row 43]: Inputs with Unit of Measurements
+  -> FAIL
+Testing [Row 44]: Inputs with Slang and Casual Phrasing; Isolated English Word Insertions in Singlish
+  -> FAIL
+Testing [Row 45]: Inputs with Slang and Casual Phrasing; Question forms
+  -> FAIL
+Testing [Row 46]: Online Indentifiers in Singlish
+  -> FAIL
+Testing [Row 47]: Online Indentifiers in Singlish; Question forms
+  -> FAIL
+Testing [Row 48]: Inputs Containing Emojis; Question forms
+  -> FAIL
+Testing [Row 49]: Inputs Containing Emojis; Isolated English Word Insertions in Singlish
+  -> FAIL
+Testing [Row 50]: Inputs with Slang and Casual Phrasing; Isolated English Word Insertions in Singlish; English Abbreviations/Acronyms in Singlish; Inputs with Time Formats; Person Names Embedded in Singlish; Requests
+Error in UI interaction: Output did not update for this input (still showing previous output).
+Testing [Row 51]: Inputs with Currency; Inputs with Time Formats; Platform/App Names in Singlish; English Abbreviations/Acronyms in Singlish; Place Names Embedded in Singlish; Person Names Embedded in Singlish; Question forms
+Error in UI interaction: Output did not update for this input (still showing previous output).
+Test completed. Results saved to C:\test_automation\test_automation\IT23856936.xlsx
